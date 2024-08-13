@@ -1,0 +1,33 @@
+---
+// this is js expression field
+import IconComponents from "../../IconComponents/IconComponents"
+---
+
+<!-- thsi is template filed -->
+<div class="navbar justify-between bg-base-100 max-w-7xl mx-auto py-4">
+  <!-- start search bar-->
+  <div class="flex-start">
+    <a href="/" class="btn btn-ghost text-xl">Astro Blog</a>
+  </div>
+
+  <!-- center =>logo -->
+  <div class="flex-center">
+    <label class="input input-bordered flex items-center gap-2 py-2 rounded-full px-10">
+        <input type="text" class="" placeholder="Search" />
+        <IconComponents type="search"/>
+      </label>
+  </div>
+
+  <!-- end -->
+  <div class="flex-3">
+    <div class="flex gap-4">
+        <IconComponents type="twitter"/>
+        <IconComponents type="facebook"/>
+        <IconComponents type="instagram"/>
+    </div>
+  </div>
+  <!-- end -->
+  <div class="flex-end">
+    <IconComponents type="bars"/>
+  </div>
+</div>
