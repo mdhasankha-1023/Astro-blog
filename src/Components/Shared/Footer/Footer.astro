@@ -1,0 +1,38 @@
+---
+// this is js expression filed
+import IconComponents from "../../IconComponents/IconComponents";
+---
+
+<!-- this template filed -->
+<footer class="footer footer-center bg-[#F8F9FA] p-10 max-w-7xl mx-auto">
+  <label class="form-control w-full">
+    <div class="label justify-start w-full">
+      <span class="label-text text-2xl font-bold">Subscribe to newsletter</span>
+    </div>
+    <div class="flex w-full gap-6">
+      <div class="w-[70%]">
+        <input
+          type="email"
+          placeholder="Enter your email"
+          class="input input-bordered w-full rounded-xl"
+        />
+      </div>
+      <div class="w-[30%]">
+        <button class="btn bg-red-500 w-full rounded-full text-white">Subscribe</button>
+      </div>
+    </div>
+  </label>
+  <nav>
+    <div class="grid grid-flow-col gap-4">
+      <a><IconComponents type="facebook" /></a>
+      <a><IconComponents type="twitter" /></a>
+      <a><IconComponents type="instagram" /></a>
+      <a><IconComponents type="youtube" /></a>
+      <a><IconComponents type="linkedin" /></a>
+      <div></div>
+    </div>
+    <aside class="mt-4">
+      <p>Copyright © {new Date().getFullYear()} - All right reserved</p>
+    </aside>
+  </nav>
+</footer>
